@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macarena Gatica</title>
+    <link>https://macagatica99.github.io/</link>
+    <description>Recent content on Macarena Gatica</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 May 2021 19:30:08 +1000</lastBuildDate><atom:link href="https://macagatica99.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post 0</title>
+      <link>https://macagatica99.github.io/docs/post-1/</link>
+      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagatica99.github.io/docs/post-1/</guid>
+      <description>Encargo zero Taller Ciudad y Espacio</description>
+    </item>
+    
+    <item>
+      <title>Post 1</title>
+      <link>https://macagatica99.github.io/docs/post-2/</link>
+      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagatica99.github.io/docs/post-2/</guid>
+      <description>Primer encargo Taller de Ciudad y Espacio</description>
+    </item>
+    
+    <item>
+      <title>Ejemplo Shortcodes</title>
+      <link>https://macagatica99.github.io/docs/ejemplo/</link>
+      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagatica99.github.io/docs/ejemplo/</guid>
+      <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
+    </item>
+    
+    <item>
+      <title>Ejemplos Markdown</title>
+      <link>https://macagatica99.github.io/docs/markdown/</link>
+      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagatica99.github.io/docs/markdown/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+  </channel>
+</rss>
