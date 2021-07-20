@@ -8,57 +8,93 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 17 May 2021 19:30:08 +1000</lastBuildDate><atom:link href="https://macagatica99.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Entrega Mecanizado CNC</title>
-      <link>https://macagatica99.github.io/docs/entregacnc/</link>
+      <title>1-Tema</title>
+      <link>https://macagatica99.github.io/docs/tema1/</link>
       <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
       
-      <guid>https://macagatica99.github.io/docs/entregacnc/</guid>
-      <description>Entrega 2</description>
+      <guid>https://macagatica99.github.io/docs/tema1/</guid>
+      <description>Entrega 1 Taller de Ciudad y Espacio</description>
     </item>
     
     <item>
-      <title>Entrega Planimetrias</title>
-      <link>https://macagatica99.github.io/docs/entrega-planimetrias/</link>
-      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
-      
-      <guid>https://macagatica99.github.io/docs/entrega-planimetrias/</guid>
-      <description>Entrega 1</description>
-    </item>
-    
-    <item>
-      <title>Entrega Propuesta de valor</title>
-      <link>https://macagatica99.github.io/docs/entregapv/</link>
-      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
-      
-      <guid>https://macagatica99.github.io/docs/entregapv/</guid>
-      <description>Entrega 2 taller ciudad y espacio</description>
-    </item>
-    
-    <item>
-      <title>Post 0</title>
-      <link>https://macagatica99.github.io/docs/post-0/</link>
-      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
-      
-      <guid>https://macagatica99.github.io/docs/post-0/</guid>
-      <description>Encargo zero Taller Ciudad y Espacio</description>
-    </item>
-    
-    <item>
-      <title>Post 1</title>
+      <title>2-Dibujos</title>
       <link>https://macagatica99.github.io/docs/post-1/</link>
       <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
       
       <guid>https://macagatica99.github.io/docs/post-1/</guid>
-      <description>Primer encargo Taller de Ciudad y Espacio</description>
+      <description>Segundo encargo Taller de Ciudad y Espacio</description>
     </item>
     
     <item>
-      <title>Ejemplos Markdown</title>
-      <link>https://macagatica99.github.io/docs/markdown/</link>
+      <title>3-Propuesta de valor</title>
+      <link>https://macagatica99.github.io/docs/entregapv/</link>
       <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
       
-      <guid>https://macagatica99.github.io/docs/markdown/</guid>
-      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+      <guid>https://macagatica99.github.io/docs/entregapv/</guid>
+      <description>Entrega 3 taller de Ciudad y Espacio</description>
+    </item>
+    
+    <item>
+      <title>4-Animacion</title>
+      <link>https://macagatica99.github.io/docs/anima4/</link>
+      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagatica99.github.io/docs/anima4/</guid>
+      <description>Entrega 4 Taller de Ciudad y Espacio</description>
+    </item>
+    
+    <item>
+      <title>5-Modelo 3D</title>
+      <link>https://macagatica99.github.io/docs/3ddise%C3%B1o5/</link>
+      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagatica99.github.io/docs/3ddise%C3%B1o5/</guid>
+      <description>Entrega 5 Taller de Ciudad y Espacio</description>
+    </item>
+    
+    <item>
+      <title>6-Midterm</title>
+      <link>https://macagatica99.github.io/docs/midterm/</link>
+      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagatica99.github.io/docs/midterm/</guid>
+      <description>Encargo MIDTERM 28 Julio</description>
+    </item>
+    
+    <item>
+      <title>0-Lectura</title>
+      <link>https://macagatica99.github.io/docs/post-0/</link>
+      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagatica99.github.io/docs/post-0/</guid>
+      <description>Encargo zero fabricacion digital</description>
+    </item>
+    
+    <item>
+      <title>1-Planimetrias</title>
+      <link>https://macagatica99.github.io/docs/entrega-planimetrias/</link>
+      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagatica99.github.io/docs/entrega-planimetrias/</guid>
+      <description>Entrega 1 fabricacion digital</description>
+    </item>
+    
+    <item>
+      <title>2-Mecanizado CNC</title>
+      <link>https://macagatica99.github.io/docs/entregacnc/</link>
+      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagatica99.github.io/docs/entregacnc/</guid>
+      <description>Entrega 2 fabricacion digital</description>
+    </item>
+    
+    <item>
+      <title>3-Mecanizado 2.5 axis</title>
+      <link>https://macagatica99.github.io/docs/25axis/</link>
+      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagatica99.github.io/docs/25axis/</guid>
+      <description>Entrega 3 Fabricacion digital</description>
     </item>
     
     <item>
@@ -68,6 +104,15 @@
       
       <guid>https://macagatica99.github.io/docs/ejemplo/</guid>
       <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
+    </item>
+    
+    <item>
+      <title>Ejemplos Markdown</title>
+      <link>https://macagatica99.github.io/docs/markdown/</link>
+      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagatica99.github.io/docs/markdown/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
   </channel>
