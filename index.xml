@@ -107,6 +107,15 @@
     </item>
     
     <item>
+      <title>3-Mecanizado 2.5 axis</title>
+      <link>https://macagatica99.github.io/docs/25axis/</link>
+      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
+      
+      <guid>https://macagatica99.github.io/docs/25axis/</guid>
+      <description>Entrega 3 Fabricacion digital</description>
+    </item>
+    
+    <item>
       <title>4-Simulacion &amp; diseño generativo</title>
       <link>https://macagatica99.github.io/docs/dis-gen/</link>
       <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
@@ -125,12 +134,12 @@
     </item>
     
     <item>
-      <title>3-Mecanizado 2.5 axis</title>
-      <link>https://macagatica99.github.io/docs/25axis/</link>
+      <title>6-Mecanizado de molde</title>
+      <link>https://macagatica99.github.io/docs/generativo/</link>
       <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
       
-      <guid>https://macagatica99.github.io/docs/25axis/</guid>
-      <description>Entrega 3 Fabricacion digital</description>
+      <guid>https://macagatica99.github.io/docs/generativo/</guid>
+      <description>Entrega complementaria I fabricacion digital</description>
     </item>
     
     <item>
@@ -149,15 +158,6 @@
       
       <guid>https://macagatica99.github.io/docs/markdown/</guid>
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
-    </item>
-    
-    <item>
-      <title>6-Mecanizado de molde</title>
-      <link>https://macagatica99.github.io/docs/generativo/</link>
-      <pubDate>Mon, 17 May 2021 19:30:08 +1000</pubDate>
-      
-      <guid>https://macagatica99.github.io/docs/generativo/</guid>
-      <description>Entrega complementaria I fabricacion digital</description>
     </item>
     
   </channel>
