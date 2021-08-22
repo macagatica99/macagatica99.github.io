@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>7-Modelado 3D de superficies - Macarena Gatica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://macagatica99.github.io/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.337460b87123cd3bece43e23390a09779972f055c34478f0b07b89186414dde2.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-documentación">
+      <a href="/docs/">
+        <span>Documentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://macagatica99.github.io"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://macagatica99.github.io"><img alt="Logo" src="/images/logo.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-documentación">
+      <a href="/docs/">
+        <span>Documentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Documentación</h4>
+  <ul>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/tema1/">1-Tema</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/post-1/">2-Dibujos</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/entregapv/">3-Propuesta de valor</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/anima4/">4-Animacion</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/3ddise%C3%B1o5/">5-Modelo 3D</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/midterm/">6-Midterm</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/dexp/">7-Diseño experimental</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/fablab/">8-Funcion critica y MVP</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/post-0/">0-Lectura</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/entrega-planimetrias/">1-Planimetrias</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/entregacnc/">2-Mecanizado CNC</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/25axis/">3-Mecanizado 2.5 axis</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/dis-gen/">4-Simulacion &amp; diseño generativo</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/encargo3d/">5-Impresion 3D</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/generativo/">6-Mecanizado de molde</a>
+    </li>
+    
+    <li class="active ">
+      <a href="https://macagatica99.github.io/docs/comp2/">7-Modelado 3D de superficies</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/exfab1/">8-Experimentacion de material</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/exfab2/">9- Molde y Experimentacion 2.0</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/ejemplo/">Ejemplo Shortcodes</a>
+    </li>
+    
+    <li class="">
+      <a href="https://macagatica99.github.io/docs/markdown/">Ejemplos Markdown</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">7-Modelado 3D de superficies</h1>
+<div class="content ">
+  <h2 id="entrega-complementaria-n2-taller-de-fabricacion-digital">Entrega complementaria N·2 Taller de fabricacion digital</h2>
+<h2 id="modelado-3d-de-superficies">Modelado 3D de superficies</h2>
+<h4 id="el-modelado-3d-de-superficies-es">El modelado 3D de superficies es…</h4>
+<p>Un modelo de superficie es un vaciado fino que no tiene masa ni volumen. Una superficie es un objeto 3D formado por un vaciado extremadamente fino. Existen dos tipos de superficies: de procedimiento y NURBS.</p>
+<h6 id="1-las-superficies-de-procedimiento">1. Las superficies de procedimiento</h6>
+<p>Pueden ser asociativas, es decir, pueden mantener relaciones con otros objetos y por tanto manipularse como un grupo.Utilice las superficies de procedimiento para aprovechar las ventajas de la asociación de superficies con sus curvas de definición.</p>
+<h6 id="2-las-superficies-nurbs">2. Las superficies NURBS</h6>
+<p>No son asociativas. Éstas tienen vértices de control que permiten esculpir formas de manera más natural. Use las superficies NURBS para aprovechar las ventajas de esculpir con vértices de control.</p>
+<p>Los modelos de superficie se crean mediante muchas de las mismas herramientas que se utilizan para los modelos sólidos: barrido, solevación, extrusión y revolución. También se pueden crear superficies mediante la fusión, el parcheado, el desfase, el empalme o el alargamiento de otras superficies.
+<img src="/comp2/supher.jpg" alt="imagen central"></p>
+<h4 id="tutorial-paso-a-paso">Tutorial paso a paso</h4>
+<h5 id="paso-1">Paso 1</h5>
+<p>Lo primero es ir a “superficie” y hacer un sketch en el plano superior, luego usar Spline para dibuja una geometría simple.
+<img src="/comp2/paso1.jpg" alt="imagen central"></p>
+<h5 id="paso-2">Paso 2</h5>
+<p>En segundo lugar debe ir a “construir” para crear un plano de construcción eligiendo como cara la superficie dibujada en el paso anterior y desplazarla con la flacha azul una proporción adecuada hacia arriba.</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/paso2comp2.mp4"  type="video/mp4">
+    </video>
+</div>
+<h5 id="paso-3">Paso 3</h5>
+<p>Luego es necesario crear un nuevo sketch eligiendo como el plano de construcción previamente hecho. Utilizar nuevamente Spline y dibujar una geometría similar a la dibujada en el paso 1, hacer click en terminar sketch.</p>
+<p><img src="/comp2/paso-3.jpg" alt="imagen central"></p>
+<p><img src="/comp2/paso3.jpg" alt="imagen central"></p>
+<h5 id="paso-4">Paso 4</h5>
+<p>Posteriormente en la sección superficies, elegir el comando “loft” y sleccionar la línea de la geometría dibujadas, primero la de abajo y luego la de arriba. Esto creara una superficie que une a las geometrías dibujadas.</p>
+<p><img src="/comp2/paso4.jpg" alt="imagen central"></p>
+<h5 id="paso-5">Paso 5</h5>
+<p>Realizar un nuevo sketch en el plano Frontal y volver a utilizar “Spline” para dibujar una nueva geometría mas simple y pequeña que las anteriormente dibujadas. Luego de eso, extruir la nueva geometría en configuración “ambos lados”</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/paso5-comp2.mp4"  type="video/mp4">
+    </video>
+</div>
+<h5 id="paso-6">Paso 6</h5>
+<p>Dirigirse a la sección de Solidos y poner “Split Body”/”Dividir Cuerpo” y seleccionar como body to Split la superfice creada entre las dos geometrías dibujadas y como Splitting tools la superficie del paso 5.</p>
+<p><img src="/comp2/paso6.jpg" alt="imagen central"></p>
+<h5 id="paso-7">Paso 7</h5>
+<p>Volver al menú de Superficie y realizar el comando “trim” / “recortar” y seleccionar como Trim tool la primera superficie creada. Las partes que sobresalen de la geometría seleccionada, deben ser seleccionadas y asi el resultado será la primera superficie construida con la segunda dentro de ella sin partes que sobresalen.</p>
+<p><img src="/comp2/paso7.jpg" alt="imagen central"></p>
+<p>Es importante eliminar 2 superficies, las que pertenecen a los extremos de la figura interior. Esto se realiza seleccionado las superficies, y con doble click elegir la opción suprimir, asi se eliminaran</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/paso7comp2.mp4"  type="video/mp4">
+    </video>
+</div>
+<h5 id="paso-8">Paso 8</h5>
+<p>A continuación, se debe utilizar un nuevoi comando “Patch” con el objetivo de seleccionar la línea de la cara superior y asi cerrar la figura en aquella zona. Esta operación debe realizarse dos veces, en ambos lados que hasta ahora permanecían abiertos. Para el resultado verse asi…</p>
+<p><img src="/comp2/paso8.jpg" alt="imagen central"></p>
+<p><img src="/comp2/paso-8.jpg" alt="imagen central"></p>
+<h5 id="paso-9">Paso 9</h5>
+<p>Con el objetivo de formar un solido desde el conjunto de superficies que se ha creado, es necesario realizar la operación “Stich” / “Coser”. Se deben ir seleccionado todas las superficies que componen el modelo, iran apareciendo líneas verde en los puntos donde la operación se llevara a cabo para unir las superficies creando un solido.</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/paso9comp2.mp4"  type="video/mp4">
+    </video>
+</div>
+<h5 id="paso-10">Paso 10</h5>
+<p>Para revisar si el solido esta bien construido, podemos utilizar un “análisis de sección” operación que se encuentra en el menú de “inspeccionar”.</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/paso10comp2.mp4"  type="video/mp4">
+    </video>
+</div>
+<h5 id="paso-11">Paso 11</h5>
+<p>El objetivo siguiente es lograr que este solido cumpla la función de contenedor, para eso se debe volver al menú de Solido y realizar un fillet seleccionado todas los bordes del cuerpo.</p>
+<p><img src="/comp2/paso11.jpg" alt="imagen central"></p>
+<p>Luego se utilizara el comando “Shell”/ “vaciado” con el objetivo de ahuecar el modelo, lo primero es seleccionar el solido y luego con la flecha azul configurar el espesor que se quiere dar.</p>
+<p><img src="/comp2/paso-11.jpg" alt="imagen central"></p>
+<p>Luego dar en inspeccionar un “análisis de sección” para corroborar que el comando se realizo bien y que el espesor del objeto es continuo en todo el cuerpo, esto se vera como un borde color rosa.</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/paso11comp2insp.mp4"  type="video/mp4">
+    </video>
+</div>
+<h5 id="modelo-creado">Modelo creado:</h5>
+<a class="face-button" href="/descargas/comp2.f3d" download>
+    <div class="face-primary">
+        <span class="icon fa fa-cloud"></span>
+        Descargar
+    </div>
+    <div class="face-secondary">
+        <span class="icon fa fa-hdd-o"></span>
+    </div>
+</a>
+
+
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+
+</html>
