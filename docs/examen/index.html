@@ -192,6 +192,7 @@
 <h1 class="title">9- Examen</h1>
 <div class="content ">
   <h2 id="proyecto-isla-flotante">Proyecto: isla flotante</h2>
+<h3 id="imagen-como-funciona-cncexamenintrojpg"><img src="/examen/intro.jpg" alt="imagen como funciona CNC"></h3>
 <hr>
 <h4 id="1-introduccion">1. Introduccion</h4>
 <p>El objetivo de este post es mostrar el proceso por el cual se ideo, diseño y experimento este proyecto hasta el momento en que se realizo el MVP.</p>
@@ -236,7 +237,7 @@ La pregunta planteada como primer desafio fue <!-- raw HTML omitted -->¿Como ha
 <p>En el primer nivel el agua pasa por un biofiltro de arena y piedras.
 En segundo nivel el agua pasa por planta terrestre
 En tercer nivel hay plantas que fitodepuran por medio de las bacterias de sus raíces.
-Finalmente el agua sale de la plataforma al cuerpo de agua por otro mini biofiltro,</p>
+Finalmente el agua sale de la plataforma al cuerpo de agua por otro mini biofiltro</p>
 <h6 id="2-conservacion-de-ecosistemas-1">2. Conservacion de ecosistemas</h6>
 <p>Mejoar la calidad de agua para mejorar la habitabilidad de entornos dañados</p>
 <h6 id="3-parque-peatonal">3. Parque peatonal</h6>
@@ -244,7 +245,7 @@ Finalmente el agua sale de la plataforma al cuerpo de agua por otro mini biofilt
 <hr>
 <h4 id="2-antecedentes">2. Antecedentes</h4>
 <h6 id="referentes-nacionales-bioantu">Referentes nacionales: BIOANTU</h6>
-<p>Ellos se dedican a crear piscinas naturales, jardines depuradores de aguas negras y lagunas artificailes: son especialistas en inpermeabilizacion para la construccion de este tipo de sistemas.
+<p>Ellos se dedican a crear piscinas naturales, jardines depuradores de aguas negras y lagunas artificiles: son especialistas en inpermeabilizacion para la construccion de este tipo de sistemas.
 Intentamos ponernos en contacto via correo varias veces sin encontrar respuestas.</p>
 <h3 id="imagen-examenbioantujpg"><img src="/examen/bioantu.jpg" alt="imagen "></h3>
 <h6 id="referentes-internacionales">Referentes internacionales:</h6>
@@ -334,7 +335,7 @@ Se concluye entonces la efectividad del bio filtro q y por ende la del biofiltro
 Luego de pasar por el biofilto marcaba XXX ppm</p>
 <h4 id="sistema-de-bombeo-de-agua">Sistema de Bombeo de agua</h4>
 <p>Probar esta funcion del proyecto es clave para su funcionamiento ya que habia que lograr llevar algua desde el cuerpo de agua hasta la punta mas alta de la isla para que desde ahi el agua comience su recorrido de filtracion.</p>
-<h5 id="funcuonamiento">Funcuonamiento</h5>
+<h5 id="funcionamiento">Funcionamiento</h5>
 <p>El sistema de bombeo de agua funciona de manera manual, sin niun tipo de energia o uso de electricidad extra, lo que sigue el hilo conductor del proyecto al ser una forma de bombear mas sustentable.
 El aparato que lleva a cabo la funcion es una especie de bombin que funciona por medio de:</p>
 <ol>
@@ -352,6 +353,8 @@ El aparato que lleva a cabo la funcion es una especie de bombin que funciona por
     <source src="/img/bombagua.mp4"  type="video/mp4">
     </video>
 </div>
+<h6 id="descripicion-del-flujo-de-agua">Descripicion del flujo de agua</h6>
+<h3 id="imagen-examenflujoaguajpg"><img src="/examen/flujoagua.jpg" alt="imagen "></h3>
 <hr>
 <h4 id="3-desarrollo">3. Desarrollo</h4>
 <h5 id="diseño-protipo">Diseño protipo</h5>
@@ -359,9 +362,140 @@ El aparato que lleva a cabo la funcion es una especie de bombin que funciona por
 <h3 id="imagen-examenprotojpg"><img src="/examen/proto.jpg" alt="imagen "></h3>
 <p>Este diseño esta creado con el comando drape que realiza la misma funcion que una maquna de termoformado, el drape se hizo teneindo como base la siguiente estructura formada por toroides de diferentes dimensiones</p>
 <h3 id="imagen-examenprototipotorusjpg"><img src="/examen/prototipotorus.jpg" alt="imagen "></h3>
-<p>PLANIMETRIAS MODELO</p>
+<h6 id="planimetrias">Planimetrias</h6>
+
+<iframe id='pdf-hugo' src='/pdf/planimetriamolde.pdf'
+frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+
+<button onclick="myFunction('pdf-hugo')" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
+
+<script>
+    function myFunction(id) {
+      document.getElementById(id).classList.add("full-screen");
+    }
+    document.addEventListener('keydown', function(event){
+	if(event.key === "Escape"){
+        document.getElementById('pdf-hugo').classList.remove("full-screen");
+	}
+});
+</script>
 <h4 id="mvp-prototipo-minimo-viable">MVP: prototipo minimo viable</h4>
-<p>IMAGEN PROTOTIPO IMPRESO</p>
+<p>Nuestro prototipo minimo viable vienes dada la experimentacion del proyecto de sus multiples sitemas sumado al diseño del prototipo en modelacion 3D.
+En la primera imagen se puede ver el formato en el que se intento realizar el molde de la isla para luego utilizar maquino termoformadora para generar una especie de &ldquo;drape&rdquo; en la vida real. Este intento fue fallido ya que al tener puntas puntiagudas la maquina podria estropearse y no se llevo acabo, se volvera a iterar con torus de madera.</p>
+<h3 id="imagen-examenmvpjpg"><img src="/examen/mvp.jpg" alt="imagen "></h3>
+<p>El modelo diseñado en 3D se puede descargar a continuacion. Este modelo contiene el molde formado por 3 toroides de distintas dimension ubicados de manera escalonada y contiene el objeto que se desea obtener como producto final que es la isla, en este casa llevado a cabo con el comando drape.</p>
+<a class="face-button" href="/descargas/moldeisla.3dm" download>
+    <div class="face-primary">
+        <span class="icon fa fa-cloud"></span>
+        Descargar
+    </div>
+    <div class="face-secondary">
+        <span class="icon fa fa-hdd-o"></span>
+    </div>
+</a>
+
+
+<h4 id="render-en-territorio">Render en territorio:</h4>
+<h3 id="hahahugoshortcode-s6-hbhb-hahahugoshortcode-s7-hbhb">
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://macagatica99.github.io/examen/galeria3//r1.jpg');" >
+				      <img itemprop="thumbnail" src="https://macagatica99.github.io/examen/galeria3//r1.jpg" alt="R1" />
+				    </div>
+			      <figcaption>
+		          <p>R1</p>
+			      </figcaption>
+				    <a href="https://macagatica99.github.io/examen/galeria3//r1.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://macagatica99.github.io/examen/galeria3//ri.jpg');" >
+				      <img itemprop="thumbnail" src="https://macagatica99.github.io/examen/galeria3//ri.jpg" alt="Ri" />
+				    </div>
+			      <figcaption>
+		          <p>Ri</p>
+			      </figcaption>
+				    <a href="https://macagatica99.github.io/examen/galeria3//ri.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://macagatica99.github.io/examen/galeria3//rp.jpg');" >
+				      <img itemprop="thumbnail" src="https://macagatica99.github.io/examen/galeria3//rp.jpg" alt="Rp" />
+				    </div>
+			      <figcaption>
+		          <p>Rp</p>
+			      </figcaption>
+				    <a href="https://macagatica99.github.io/examen/galeria3//rp.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+ 
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+</h3>
+<hr>
 <h5 id="descripcion">Descripcion</h5>
 <h6 id="partes">Partes:</h6>
 <ol>
@@ -382,10 +516,13 @@ El aparato que lleva a cabo la funcion es una especie de bombin que funciona por
 Plataforma</li>
 </ul>
 <ol start="3">
-<li>Diseño formado por tres toroides y drape
--Tecnica constructiva: termoformado</li>
+<li>Diseño formado por tres toroides y drape</li>
 </ol>
-<p>IMAGEEEEENES: CORTE MOSTRANDO LAS PARTES</p>
+<ul>
+<li>Tecnica constructiva: termoformado</li>
+</ul>
+<h3 id="imagen-examenpartesokjpg"><img src="/examen/partesok.jpg" alt="imagen "></h3>
+<h3 id="imagen-examencorte1jpg"><img src="/examen/corte1.jpg" alt="imagen "></h3>
 <hr>
 <h4 id="valor-agregado">Valor agregado</h4>
 <ol>
@@ -403,6 +540,25 @@ Plataforma</li>
 </ol>
 <h5 id="conclusion">Conclusion</h5>
 <p>En resumen nuestro proyecto de Isla Flotante permite obtener agua limpia mediante procesos de bioiltracion para conseguir ecosistemas de calidad que permiten la conservacion de biodiversidad. Potenciando la interaccion del humano con la naturaleza mediante el desarrollo de consciencia ecologica que permite la creacion del proyecto.</p>
+<h6 id="presentacion">Presentacion</h6>
+
+<iframe id='pdf-hugo' src='/pdf/examenisla.pdf'
+frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+
+<button onclick="myFunction('pdf-hugo')" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
+
+<script>
+    function myFunction(id) {
+      document.getElementById(id).classList.add("full-screen");
+    }
+    document.addEventListener('keydown', function(event){
+	if(event.key === "Escape"){
+        document.getElementById('pdf-hugo').classList.remove("full-screen");
+	}
+});
+</script>
+<h6 id="link-de-la-presentacion-">LINK DE LA PRESENTACION :</h6>
+<p><a href="https://www.canva.com/design/DAEn4mqjpy4/YOFw13sr-oT_sPmdOHN5Pw/view?utm_content=DAEn4mqjpy4&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=sharebuttonn">https://www.canva.com/design/DAEn4mqjpy4/YOFw13sr-oT_sPmdOHN5Pw/view?utm_content=DAEn4mqjpy4&amp;utm_campaign=designshare&amp;utm_medium=link&amp;utm_source=sharebuttonn</a></p>
 
 </div>
 </div>
